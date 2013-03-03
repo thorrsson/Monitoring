@@ -3,12 +3,12 @@
 #
 # Writes a passed value to the graphite server of your choosing.
 # * *Arguments:
-#  host <h>
-#  port<p>
-#  tree(Structure to create in Graphite) <t>
-#  value (to be written to graphite <v>
+#  host 
+#  port
+#  tree(Structure to create in Graphite) 
+#  value (to be written to graphite 
 #
-# TODO Examples:
+# Examples:
 # +from write_to_graphite import w2g+
 # +w2g('graphite.yourdomain.com', 2003, 'Data.To.Log', value)+
 # 
