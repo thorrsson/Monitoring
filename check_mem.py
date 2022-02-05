@@ -12,7 +12,7 @@ import socket
 try:
 	import psutil
 except:
-	print "Could not import psutil, try 'pip install psutil' ..."
+	print "Could not import psutil, try 'pip install psutil',,,
 
 def check_mem():
 	server = 'localhost'
